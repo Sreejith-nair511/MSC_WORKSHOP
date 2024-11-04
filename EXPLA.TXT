@@ -1,0 +1,49 @@
+Initialize Pygame:
+
+pygame.init(): Initializes all Pygame modules.
+
+Define Colors:
+
+Colors are defined using RGB values.
+
+Set Display Dimensions:
+
+dis_width and dis_height set the window size.
+
+dis creates the game window.
+
+pygame.display.set_caption sets the window title.
+
+Set Clock:
+
+clock manages the game's frame rate.
+
+Snake and Food Settings:
+
+snake_block defines the size of each snake segment.
+
+snake_speed sets the speed of the snake.
+
+Font Settings:
+
+font_style and score_font are used for displaying text and scores.
+
+Display Score:
+
+your_score(score): Displays the current score on the screen.
+
+Draw Snake:
+
+our_snake(snake_block, snake_list): Draws the snake on the screen.
+
+Display Message:
+
+message(msg, color): Displays a message on the screen.
+
+Game Loop:
+
+gameLoop(): Main function containing the game logic.
+
+Manages the game over and close states.
+
+Handles events like key
